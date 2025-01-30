@@ -8,6 +8,7 @@ export default function Home() {
       <Box
         w={"80px"}
         h={"80px"}
+        // @ts-ignore
         bgColor={{ base: "red.400", sm: "blue.400", md: "green.400", fold: "yellow.400", lg: "red.400", xl: "gray.400" }}
       ></Box>
     </HStack>
